@@ -18,7 +18,7 @@
 # 2.- In the box, type cmd and press Enter. The command prompt window will appear.
 # 3.- Type whoami and press Enter.
 # 4.- Your current username will be displayed.
-[string]$windows_username = "idepi"
+[string]$windows_username = "yourusername"
 # You can find these variables by following this steps
 # 1.- While sitting at the host computer with LogMeIn installed, press and hold the Windows key and press the letter X on your keyboard.
 # 2.- Select "Windows Power Shell" option.
@@ -31,11 +31,11 @@
 # SYSTEM RESOURSE ALLOCATION
 ############################
 # How many RAM assigned
-[int]$memory_buffer_size = 4096
+[int]$memory_buffer_size = 3400
 # How many plots will it queue
 [int]$number_of_plots = 1
 # How many threads assigned
-[int]$cpu_threads = 4
+[int]$cpu_threads = 2
 # Size of plot
 [int]$k_size = 32
 # I recommend don't change this value
